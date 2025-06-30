@@ -1,3 +1,73 @@
-h1{
-    color:red
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+}
+.ContentBox1{
+    height: 100px;
+    width: 100px;
+    border: 1px solid pink;
+    display: inline-block;
+}
+.ContentBox2{
+    height: 100px;
+    width: 100px;
+    border: 1px solid pink;
+    display: inline-block;
+}
+.ContentBox3{
+    height: 100px;
+    width: 100px;
+    border: 1px solid pink;
+    display: inline-block;
+}
+#Content{
+    height: 700px;
+}
+.loader{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border : 20px solid #ffe660;
+    border-top: 20px solid #4ecdc4;
+    animation: spinAnimate 3s ease-in 0s infinite normal;
+}
+@keyframes spinAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+footer{
+ background-color: black;
+ color: white;
+  text-align: center;
+}
+.ContentBox1{
+    background-image: url('bird_photo.jpg');
+    background-size: cover;
+}
+.ContentBox2{
+    background-image: url('panda_photo.jpg');
+    background-size: cover;
+}
+.ContentBox3{
+    background-image: url('tiger_photo.jpg');
+    background-size: cover;
 }
